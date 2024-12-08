@@ -14,6 +14,15 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
+<<<<<<< HEAD
+=======
+  it(`should have the 'investor-calculator-app' title`, () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    expect(app.title).toEqual('investor-calculator-app');
+  });
+
+>>>>>>> b86c9de1bcd9e45cfeb6f62751d4389aab126483
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
