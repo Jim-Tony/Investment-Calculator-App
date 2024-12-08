@@ -3,11 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-<<<<<<< HEAD
     "essentials-practice": {
-=======
-    "investor-calculator-app": {
->>>>>>> b86c9de1bcd9e45cfeb6f62751d4389aab126483
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -17,11 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-<<<<<<< HEAD
             "outputPath": "dist/essentials-practice",
-=======
-            "outputPath": "dist/investor-calculator-app",
->>>>>>> b86c9de1bcd9e45cfeb6f62751d4389aab126483
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -29,16 +21,11 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-<<<<<<< HEAD
               {
                 "glob": "**/*",
                 "input": "public",
                 "output": "src/assets"
               }
-=======
-              "src/favicon.ico",
-              "src/assets"
->>>>>>> b86c9de1bcd9e45cfeb6f62751d4389aab126483
             ],
             "styles": [
               "src/styles.css"
@@ -73,17 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-<<<<<<< HEAD
               "buildTarget": "essentials-practice:build:production"
             },
             "development": {
               "buildTarget": "essentials-practice:build:development"
-=======
-              "buildTarget": "investor-calculator-app:build:production"
-            },
-            "development": {
-              "buildTarget": "investor-calculator-app:build:development"
->>>>>>> b86c9de1bcd9e45cfeb6f62751d4389aab126483
             }
           },
           "defaultConfiguration": "development"
@@ -91,11 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-<<<<<<< HEAD
             "buildTarget": "essentials-practice:build"
-=======
-            "buildTarget": "investor-calculator-app:build"
->>>>>>> b86c9de1bcd9e45cfeb6f62751d4389aab126483
           }
         },
         "test": {
@@ -107,16 +83,11 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
-<<<<<<< HEAD
               {
                 "glob": "**/*",
                 "input": "public",
                 "output" : "src/assets"
               }
-=======
-              "src/favicon.ico",
-              "src/assets"
->>>>>>> b86c9de1bcd9e45cfeb6f62751d4389aab126483
             ],
             "styles": [
               "src/styles.css"
@@ -126,11 +97,8 @@
         }
       }
     }
-<<<<<<< HEAD
   },
   "cli": {
     "analytics": "7cc0bc9f-c970-44c9-bc77-37c3902a355b"
-=======
->>>>>>> b86c9de1bcd9e45cfeb6f62751d4389aab126483
   }
 }
